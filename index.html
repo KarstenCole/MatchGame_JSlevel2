@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="utilities.js"></script>
+</head>
+<body onload="initialize();">
+    <h1>Match Game</h1>
+    <h3>How to play:</h4>
+    <p>
+        Click a card to see what fruit is under it. <br>
+        After you see one card you can see another. <br>
+        If they match they will stay shown.<br>
+        Try to match all of the cards.<br>
+        Good Luck!!
+    </p>
+    <br>
+    <div id="wrapper">
+        <button onclick="revealCard(1);"id="button1"></button>
+        <button onclick="revealCard(2);"id="button2"></button>
+        <button onclick="revealCard(3);"id="button3"></button>
+        <button onclick="revealCard(4);"id="button4"></button>
+        <button onclick="revealCard(5);"id="button5"></button>
+        <button onclick="revealCard(6);"id="button6"></button>
+        <button onclick="revealCard(7);"id="button7"></button>
+        <button onclick="revealCard(8);"id="button8"></button>
+        <button onclick="revealCard(9);"id="button9"></button>
+        <button onclick="revealCard(10);"id="button10"></button>
+        <button onclick="revealCard(11);"id="button11"></button>
+        <button onclick="revealCard(12);"id="button12"></button>
+        <button onclick="revealCard(13);"id="button13"></button>
+        <button onclick="revealCard(14);"id="button14"></button>
+        <button onclick="revealCard(15);"id="button15"></button>
+        <button onclick="revealCard(16);"id="button16"></button>
+    </div>
+    <br>
+    <div id="bottom">
+        <button onclick="initialize();" id="Reset">Reset</button>
+        <h1>Score:<span id="Score">0</span></h1>
+    </div>
+   
+</body>
+</html>
